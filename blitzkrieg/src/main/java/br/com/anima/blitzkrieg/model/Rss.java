@@ -14,7 +14,7 @@ public class Rss {
     private String id;
     private String titulo;
     private String link;
-    private String descricap;
+    private String descricao;
     private Date dataDePublicacao;
 
 }
