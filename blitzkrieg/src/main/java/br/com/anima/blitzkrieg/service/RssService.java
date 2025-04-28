@@ -28,6 +28,7 @@ public class RssService {
             URL feedUrl = new URL(rssUrl);
             SyndFeedInput input = new SyndFeedInput();
             SyndFeed feed = input.build(new XmlReader(feedUrl));
+
             for (SyndEntry entry : feed.getEntries()) {
                 Rss rssFeed = new Rss();
                 rssFeed.setTitulo(entry.getTitle());
