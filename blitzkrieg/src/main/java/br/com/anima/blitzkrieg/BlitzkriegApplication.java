@@ -15,9 +15,9 @@ public class BlitzkriegApplication {
 	@Bean
 	public CommandLineRunner run(RssService rssService) {
 		return args -> {
-			String rssUrl = "https://www.logisticsmgmt.com/rss"; // Exemplo
+			String rssUrl = "https://g1.globo.com/dynamo/tecnologia/rss2.xml";
 			rssService.fetchAndSaveRss(rssUrl);
-			System.out.println("✅ RSS processado e salvo no MongoDB!");
+			System.out.println("RSS processado e salvo no MongoDB!");
 		};
 	}
 }
