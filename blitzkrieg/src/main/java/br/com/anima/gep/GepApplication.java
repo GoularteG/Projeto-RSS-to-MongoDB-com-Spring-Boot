@@ -15,7 +15,7 @@ public class GepApplication {
 	@Bean
 	public CommandLineRunner run(RssService rssService) {
 		return args -> {
-			String rssUrl = "https://g1.globo.com/dynamo/tecnologia/rss2.xml";
+			String rssUrl = "https://g1.globo.com/dynamo/carros/rss2.xml";
 			rssService.fetchAndSaveRss(rssUrl);
 			System.out.println("RSS processado e salvo no MongoDB!");
 		};
