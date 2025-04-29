@@ -1,7 +1,7 @@
-package br.com.anima.blitzkrieg.service;
+package br.com.anima.gep.service;
 
-import br.com.anima.blitzkrieg.model.Rss;
-import br.com.anima.blitzkrieg.repository.RssRepository;
+import br.com.anima.gep.model.Rss;
+import br.com.anima.gep.repository.RssRepository;
 import com.rometools.rome.feed.synd.SyndEntry;
 import com.rometools.rome.feed.synd.SyndFeed;
 import com.rometools.rome.io.FeedException;

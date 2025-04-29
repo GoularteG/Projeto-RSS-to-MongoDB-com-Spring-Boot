@@ -1,15 +1,15 @@
-package br.com.anima.blitzkrieg;
+package br.com.anima.gep;
 
-import br.com.anima.blitzkrieg.service.RssService;
+import br.com.anima.gep.service.RssService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class BlitzkriegApplication {
+public class GepApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BlitzkriegApplication.class, args);
+		SpringApplication.run(GepApplication.class, args);
 	}
 
 	@Bean
