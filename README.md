@@ -24,22 +24,8 @@ O objetivo final é que esses dados sejam consumidos posteriormente por uma **IA
    - Link
    - Descrição
    - Data de publicação
-4. Salva esses dados na coleção **`rss`** de um banco de dados **MongoDB**.
 
----
 
-## 🔥 Como rodar o projeto localmente
-
-### Pré-requisitos:
-- Java 17+ instalado
-- MongoDB rodando localmente (`localhost:27017`)
-- Maven configurado (caso utilize)
-
-### Configuração do banco:
-No arquivo `application.properties`:
-
-```properties
-spring.data.mongodb.uri=mongodb://localhost:27017/blitzkrieg-test
 
 
 
